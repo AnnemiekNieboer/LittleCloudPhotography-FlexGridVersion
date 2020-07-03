@@ -1,5 +1,6 @@
 body {
 	background-color: #F2ECE6;
+    margin: auto 0;
 }
 
 h1 {
@@ -30,14 +31,23 @@ br {
 	height: 4rem;
 }
 
+ul {
+padding-inline-start: 0px;	
+}
+
+
 li {
-	padding: 20px;
+	padding: 10px;
 }
 
 @media only screen and (max-width: 990px) {
 	.navigation {
         font-size: 0.8em;
-        padding: 0;
+        margin-left: auto 0;
+        margin-right: auto 0;
+    }
+    li {
+    	padding: 0,8em;
     }
     .logo {
     	height: 3.5rem;
