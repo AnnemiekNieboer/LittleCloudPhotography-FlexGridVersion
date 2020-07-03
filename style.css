@@ -67,6 +67,7 @@ a:hover {
 .container {
 	display: flex;
 	margin-bottom: 3rem;
+	justify-content: center;
 
 }
 
@@ -109,7 +110,7 @@ a:hover {
 .grid-wrapper {
     display: grid;
     grid-gap: 30px;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
 }
 
 .gallery-box > img {
